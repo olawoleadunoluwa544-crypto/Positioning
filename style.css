@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 1rem 2rem;
+    color: crimson;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: crimson;
+}
+a:hover{
+    background-color:blue;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+}
+.Home{
+    height: 500px;
+    background-image: url('Magazine.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgb(234, 107, 132);
+}
+  .Hair{
+    width: 525px;
+    padding: 15px;
+    border: 2px solid #ff0059;
+    color: rgb(255, 0, 0);
+    margin: 20px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgb(255, 1, 107);
+    background-color: #34ddf451;
+}
+#main{
+    position: relative;
+    padding: 20px;
+    background-color: #34ddf451;
+    border: 2px rgba(247, 46, 46, 0.89);
+    margin: 20px;
+}
+#main section{
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #f80909e9;
+}
+#fixed{
+    position: fixed;
+    top: 0;
+    left: 225;
+    width: 250;
+    background-color: #75edb9fa;
+    z-index: 1000;
+    opacity: 0.5;
+}
+.sticky{
+    position: sticky;
+    top: 100;
+    background-color: #e65fbe;
+}
